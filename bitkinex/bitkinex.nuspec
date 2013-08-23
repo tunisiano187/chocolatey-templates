@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>bitkinex</id>
+    <title>bitkinex</title>
+    <version>3.2.3</version>
+    <authors>Barad-Dur, LLC</authors>
+    <owners>Devon Hubner</owners>
+    <summary>bitkinex</summary>
+    <description>BitKinex is a handy network client supporting multiple transfer protocols (FTP, FTP(S), SFTP, HTTP(S) and WebDAV). In contrast to other clients BitKinex uses multiple connections not only for file transfers but for browsing remote directories as well. With just one click you can minimize the space occupied by the program to one small window showing the status of running requests, and with just a few clicks you can see all the details again. </description>
+    <projectUrl>http://www.bitkinex.com/</projectUrl>
+    <tags>bitkinex admin</tags>
+    <copyright>2000-2012 Barad-Dur, LLC.</copyright>
+    <licenseUrl>http://www.bitkinex.com/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/bitkinex/bitkinex.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>

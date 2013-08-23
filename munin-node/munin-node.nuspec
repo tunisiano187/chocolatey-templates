@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>munin-node</id>
+    <title>munin-node</title>
+    <version>1.6.1.0</version>
+    <authors>agroszer, steveschnepp, joshrobb</authors>
+    <owners>Devon Hubner</owners>
+    <summary>Munin Node for Windows</summary>
+    <description>munin-node-win32 Is a Windows client for the popular Munin monitoring system. It is written in C++ with most plugins built into the executable.</description>
+    <projectUrl>https://code.google.com/p/munin-node-win32/</projectUrl>
+    <tags>munin-node admin</tags>
+    <copyright></copyright>
+    <licenseUrl>https://code.google.com/p/munin-node-win32/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/munin-node/munin-node.png</iconUrl>-->
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
