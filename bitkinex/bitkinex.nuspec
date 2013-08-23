@@ -3,7 +3,7 @@
   <metadata>
     <id>bitkinex</id>
     <title>bitkinex</title>
-    <version>3.2.3</version>
+    <version>3.2.3.20130823</version>
     <authors>Barad-Dur, LLC</authors>
     <owners>Devon Hubner</owners>
     <summary>bitkinex</summary>
@@ -13,7 +13,7 @@
     <copyright>2000-2012 Barad-Dur, LLC.</copyright>
     <licenseUrl>http://www.bitkinex.com/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/bitkinex/bitkinex.png</iconUrl>-->
+    <iconUrl>https://raw.github.com/DevoKun/chocolatey-templates/master/bitkinex/bitkinex_logo.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->

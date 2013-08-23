@@ -3,7 +3,7 @@
   <metadata>
     <id>bbwin</id>
     <title>bbwin</title>
-    <version>0.13</version>
+    <version>0.13.0.20130823</version>
     <authors>sharpyy, tjyang</authors>
     <owners>Devon Hubner</owners>
     <summary>bbwin a Xymon monitoring client for Windows.</summary>
@@ -13,7 +13,7 @@
     <copyright></copyright>
     <licenseUrl>http://bbwin.sourceforge.net/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/bbwin/bbwin.png</iconUrl>-->
+    <iconUrl>https://raw.github.com/DevoKun/chocolatey-templates/master/bbwin/bbwin-logo.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->

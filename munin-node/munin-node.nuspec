@@ -3,7 +3,7 @@
   <metadata>
     <id>munin-node</id>
     <title>munin-node</title>
-    <version>1.6.1.0</version>
+    <version>1.6.1.20130823</version>
     <authors>agroszer, steveschnepp, joshrobb</authors>
     <owners>Devon Hubner</owners>
     <summary>Munin Node for Windows</summary>
@@ -13,7 +13,7 @@
     <copyright></copyright>
     <licenseUrl>https://code.google.com/p/munin-node-win32/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<iconUrl>https://raw.github.com/__CHOCO_PKG_OWNER_REPO__/master/munin-node/munin-node.png</iconUrl>-->
+    <iconUrl>https://raw.github.com/DevoKun/chocolatey-templates/master/munin-node/munin-node-windows-logo.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
