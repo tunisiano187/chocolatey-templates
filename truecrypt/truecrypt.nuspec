@@ -3,21 +3,30 @@
   <metadata>
     <id>truecrypt</id>
     <title>TrueCrypt</title>
-    <version>7.1.1</version>
-    <authors>tc-foundation</authors>
-    <owners>Yoshimov</owners>
+    <version>7.1.20140620</version>
+    <authors>The TrueCrypt Foundation</authors>
+    <owners>Yoshimov,DevoKun</owners>
     <summary>Free open-source disk encryption software for Windows 7/Vista/XP, Mac OS X, and Linux</summary>
-    <description>Free open-source disk encryption software for Windows 7/Vista/XP, Mac OS X, and Linux</description>
-    <projectUrl>http://www.truecrypt.org/</projectUrl>
+    <description>
+* In May 2014 the anonymous developers of TrueCrypt stopped working on the TrueCrypt project.
+* In a shocking move the TrueCrypt authors removed all copies of truecrypt from the truecrypt.org website.
+* Truecrypt 7.1a is still safe to use (https://www.grc.com/misc/truecrypt/truecrypt.htm).
+* If you see messages about TrueCrypt being unsafe to use, it's ONLY because TrueCrypt, for now, is unmaintained.
+* If a security issue is discovered there are no official developers around to fix it.
+* TrueCryptNext (https://www.truecrypt.ch/) is working to organize the future of TrueCrypt.
+* TrueCrypt is archived on the reputable grc.com (https://www.grc.com/misc/truecrypt/truecrypt.htm), which is where this package current is installed from.
+* Truecrypt 7.2 is a neutered version with all encryption functionality removed. TrueCrypt 7.1a is the version everybody should be installing.
+</description>
+    <projectUrl>https://www.grc.com/misc/truecrypt/truecrypt.htm</projectUrl>
     <tags>truecrypt admin encrypt</tags>
     <copyright></copyright>
-    <licenseUrl>http://www.truecrypt.org/legal/license</licenseUrl>
+    <licenseUrl>https://www.grc.com/misc/truecrypt/truecrypt.htm</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://github.com/yoshimov/chocolatey-packages/raw/master/truecrypt/logo38px.gif</iconUrl>
+    <iconUrl>https://raw.github.com/DevoKun/chocolatey-templates/master/truecrypt_logo.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
-    <releaseNotes></releaseNotes>
+    <releaseNotes>Updated package to use the TrueCrypt archive on grc.com instead of the dead links from truecrypt.org.</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
