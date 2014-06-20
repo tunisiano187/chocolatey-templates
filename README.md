@@ -17,6 +17,7 @@ cinst packageName -source %cd%
 
 ## Push a Package
 ### From the Commandline
+* Retrieve API Key from https://chocolatey.org/account
 ```bash
 cpush packageName.nupkg
 ```
