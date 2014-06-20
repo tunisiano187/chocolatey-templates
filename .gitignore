@@ -1,4 +1,6 @@
 ############################
 # NuGet Package (zip) file #
 *.nupkg
+Thumbs.db
+Thumbs.db:encryptable
 ############################
