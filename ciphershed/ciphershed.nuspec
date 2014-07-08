@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ciphershed</id>
+    <title>CipherShed</title>
+    <version>0.0.0.20140708</version>
+    <authors>The CipherShed Foundation</authors>
+    <owners>DevoKun</owners>
+    <summary>Free open-source disk encryption software for Windows 7/Vista/XP, Mac OS X, and Linux</summary>
+    <description>
+* In May 2014 the anonymous developers of TrueCrypt stopped working on the TrueCrypt project.
+* In an effort to continue the TrueCrypt project, the TCNext project was formed (https://truecrypt.ch/)
+* For legal restrictions outlined in the original TrueCrypt license, any use of the TrueCrypt name or code is prohibited. TrueCrypt was originally released as source-available, not source-open.
+* In July 2014 the TCNext project chose the name CipherShed (https://truecrypt.ch/2014/07/new-name-announced/) for all future versions of TrueCrypt.
+* In July 2014 the TCNext project announced a long term goal of rewriting the entire TrueCrypt codebase. The TCNext stated that rewriting th code was because parts of the code date back to the early 90's, however it is more likely that the code rewrited is required to conform with the original TrueCrypt license.
+</description>
+    <projectUrl>https://truecrypt.ch</projectUrl>
+    <tags>ciphershed truecrypt tcnext admin encrypt</tags>
+    <copyright></copyright>
+    <licenseUrl>https://truecrypt.ch</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/DevoKun/chocolatey-templates/master/ciphershed_logo.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
