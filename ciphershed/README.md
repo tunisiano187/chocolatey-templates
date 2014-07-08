@@ -1,5 +1,6 @@
 TrueCrypt
 =========
+https://www.grc.com/misc/truecrypt/truecrypt.htm
 
 ## In May 2014 the anonymous developers of TrueCrypt stopped working on the project
 * The anonymous developers of the original TrueCrypt decided to stop working on TrueCrypt and took down their truecrypt.org website.
@@ -26,9 +27,8 @@ https://twitter.com/TrueCryptNext
 
 ## On June 8th, 2014 CipherShed announced, on twitter, that they were working to bring out a rebranded version of TrueCrypt 7.1a
 
-> We plan to bring out a re-branded version of #TrueCrypt 7.1a with some security fixes ASAP.
+> We plan to bring out a re-branded version of TrueCrypt 7.1a with some security fixes ASAP.
 > Development has begun.
-> #CipherShed
 >
 > https://twitter.com/CipherShed/status/475644746572918785
 
