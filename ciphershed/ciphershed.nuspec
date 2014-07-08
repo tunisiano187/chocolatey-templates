@@ -19,7 +19,7 @@
     <copyright></copyright>
     <licenseUrl>https://truecrypt.ch</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.github.com/DevoKun/chocolatey-templates/master/ciphershed_logo.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/DevoKun/chocolatey-templates/master/ciphershed/ciphershed_logo.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
