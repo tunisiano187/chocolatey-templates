@@ -1,10 +1,12 @@
 ﻿
-$packageName    = 'suricata' # arbitrary name for the package, used in messages
-$installerType  = 'msi' #only one of these two: exe or msi
-$validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
+
+$packageName    = 'suricata'
+$installerType  = 'msi'
+$validExitCodes = @(0)
 $silentArgs     = '/quiet'
 
 try {
+  Echo "Downloading and Installing Suricata"
   $downUrl = "https://redmine.openinfosecfoundation.org/attachments/download/1033/Suricata-2.0.2-1-32bit.msi"
   Echo "download url = $downUrl"
   Install-ChocolateyPackage "$packageName" "$installerType" "$silentArgs" "$downUrl" -validExitCodes $validExitCodes

@@ -14,9 +14,9 @@
     <licenseUrl>http://suricata-ids.org</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/DevoKun/chocolatey-templates/master/suricata/suricata_logo.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+    <dependencies>
+      <dependency id="WinPcap" version="4.1.3.20130806" />
+    </dependencies>
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
