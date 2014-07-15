@@ -11,8 +11,15 @@ cpack
 
 ## Test a Package
 * In the same directory as the .nupkg file
+
+### Test Local Package only
 ```bash
 cinst packageName -source %cd%
+```
+
+### Test Local Package with Remote Dependencies
+```
+cinst packageName -source '%cd%;http://chocolatey.org/api/v2/'
 ```
 
 ## Push a Package

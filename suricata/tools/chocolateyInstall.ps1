@@ -1,8 +1,7 @@
 ﻿
 $packageName    = 'suricata' # arbitrary name for the package, used in messages
 $installerType  = 'msi' #only one of these two: exe or msi
-$validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/libra
-ry/aa368542(VS.85).aspx
+$validExitCodes = @(0) #please insert other valid exit codes here, exit codes for ms http://msdn.microsoft.com/en-us/library/aa368542(VS.85).aspx
 $silentArgs     = '/quiet'
 
 try {
