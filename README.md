@@ -22,6 +22,17 @@ cinst packageName -source %cd%
 cinst packageName -source '%cd%;http://chocolatey.org/api/v2/'
 ```
 
+### Force Re-install of a package
+```bash
+cinst packageName -source %cd% -force
+```
+
+### Enable Debug logging/output for an installation
+```bash
+cinst packageName -source %cd% -debug
+```
+
+
 ## Push a Package
 ### From the Commandline
 * Retrieve API Key from https://chocolatey.org/account

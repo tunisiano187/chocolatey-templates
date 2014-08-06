@@ -3,7 +3,7 @@
   <metadata>
     <id>pgadmin3</id>
     <title>pgadmin3</title>
-    <version>1.18.1</version>
+    <version>1.18.1.20140806</version>
     <authors>The PostgreSQL Global Development Group, Current Maintainer: Dave Page dpage@postgresql.org</authors>
     <owners>Devon Hubner</owners>
     <summary>pgAdmin3</summary>
