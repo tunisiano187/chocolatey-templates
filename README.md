@@ -3,7 +3,15 @@ chocolatey-templates
 
 * Templates for creating Chocolatey (http://www.chocolatey.org/) packages
 
-## Package
+## Create or Update a Package
+### Path and Environment Variables
+* You need to be able to find *cpack* and certain scripts depend on the *ChocolateyInstall* variable.
+```bash
+set PATH=%PATH%;C:\Chocolatey\bin
+set ChocolateyInstall=C:\Chocolatey
+```
+
+### Run the Chocolatey Packager
 * In the directory where the nuspec is:
 ```bash
 cpack
