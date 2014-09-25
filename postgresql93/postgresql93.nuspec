@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>postgresql93</id>
+    <version>9.3.5.1</version>
+    <title>PostgreSQL</title>
+    <authors>pgsql developers</authors>
+    <owners>DevoKun</owners>
+    <licenseUrl>http://www.postgresql.org/about/licence</licenseUrl>
+    <projectUrl>http://www.postgresql.org/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/DevoKun/chocolatey-templates/master/postgresql/postgresql_server93.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+This package installs PostgreSQL 9.3. The creation of a package dedicated to the release version matches the distribution methodology employed by EnterpriseDB on Linux, and thus protecting against unwanted or unexpected upgrades.
+
+Installs to C:\postgresql93
+Creates the user: postgresql with password: Postgres1234
+Creates, and starts, a Windows Service for PostgreSQL named: postgresql93
+
+This release forked from the PostgreSQL package (https://chocolatey.org/packages/postgresql) by FerventCoder (http://chocolatey.org/profiles/ferventcoder)
+</description>
+    <summary>PostgreSQL Databas Server release 9.3.</summary>
+    <tags>postgresql database sql</tags>
+  </metadata>
+</package>

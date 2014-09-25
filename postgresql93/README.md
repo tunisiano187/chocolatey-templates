@@ -7,9 +7,9 @@ PostgreSQL
 ## Installer Includes pgAdminIII
 
 ## Install Location, Service, and User
-* Installs to **C:\PostgreSQL**
+* Installs to **C:\postgresql93**
 * Creates the user: **postgresql** with password: **Postgres1234**
-* Creates, and starts, a Windows Service for PostgreSQL named: **PostgreSQL**
+* Creates, and starts, a Windows Service for PostgreSQL named: **postgresql93**
 
 ## Service Control
 * Run these commands from an elevated shell prompt
@@ -30,7 +30,7 @@ net stop PostgreSQL
 sc delete PostgreSQL
 ```
 
-## This version was originally cloned from ferventcoder
+## This version was originally forked from ferventcoder
 * ***On Chocolatey.org:*** http://chocolatey.org/profiles/ferventcoder
 * ***On GitHub:*** https://github.com/ferventcoder
 

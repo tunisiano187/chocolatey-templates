@@ -11,10 +11,10 @@
 $postgresql_exe_url64 = 'http://get.enterprisedb.com/postgresql/postgresql-9.3.5-1-windows-x64.exe'
 $postgresql_exe_url32 = 'http://get.enterprisedb.com/postgresql/postgresql-9.3.5-1-windows.exe'
 
-$postgrePath        = "$($env:SystemDrive)\PostgreSQL"
+$postgrePath        = "$($env:SystemDrive)\postgresql93"
 $postgreAccount     = 'postgres'
 $postgrePassword    = 'Postgres1234'
-$postgreServiceName = 'PostgreSQL'
+$postgreServiceName = 'postgresql93'
 
 try {
   #http://www.enterprisedb.com/products-services-training/pgdownload#windows

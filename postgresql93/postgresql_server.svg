@@ -14,7 +14,10 @@
    id="svg3057"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="postgresql_server.svg"><metadata
+   sodipodi:docname="postgresql_server.svg"
+   inkscape:export-filename="/home/devon/incoming/winsrc/chocolatey/chocolatey-templates/postgresql93/postgresql_server93.png"
+   inkscape:export-xdpi="72"
+   inkscape:export-ydpi="72"><metadata
      id="metadata3089"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
@@ -31,13 +34,25 @@
      inkscape:window-height="991"
      id="namedview3085"
      showgrid="false"
-     inkscape:zoom="0.60965281"
-     inkscape:cx="775.88553"
-     inkscape:cy="38.580016"
+     inkscape:zoom="0.86217927"
+     inkscape:cx="391.94806"
+     inkscape:cy="91.747241"
      inkscape:window-x="0"
      inkscape:window-y="32"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg3057" /><g
+     inkscape:current-layer="svg3057" /><text
+     xml:space="preserve"
+     style="font-size:133.07595825000001355px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffcc00;fill-opacity:1;stroke:#ffcc00;stroke-width:6.40000006;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans"
+     x="282.50443"
+     y="626.56329"
+     id="text3085-0"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3087-2"
+       x="282.50443"
+       y="626.56329"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffcc00;stroke:#ffcc00;stroke-width:6.40000006;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Satisfy;-inkscape-font-specification:Satisfy">9.3</tspan></text>
+<g
      id="orginal"
      style="fill-rule:nonzero;clip-rule:nonzero;stroke:#000000;stroke-miterlimit:4;" /><g
      id="Layer_x0020_3"
@@ -122,7 +137,7 @@
        inkscape:connector-curvature="0" /></g><text
      xml:space="preserve"
      style="font-size:147.05142212px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#336791;fill-opacity:1;stroke:none;font-family:Wire One;-inkscape-font-specification:Wire One"
-     x="45.45517"
+     x="2.5307617"
      y="857.9223"
      id="text8200-1"
      sodipodi:linespacing="125%"
@@ -132,7 +147,19 @@
      inkscape:export-ydpi="72"><tspan
        sodipodi:role="line"
        id="tspan8202-0"
-       x="45.45517"
+       x="2.5307617"
        y="857.9223"
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#336791;fill-opacity:1;font-family:Wire One;-inkscape-font-specification:Wire One Bold">Server</tspan></text>
+<text
+     xml:space="preserve"
+     style="font-size:133.07595824999998513px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a02c2c;fill-opacity:1;stroke:none;font-family:Sans"
+     x="282.50443"
+     y="626.9635"
+     id="text3085"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3087"
+       x="282.50443"
+       y="626.9635"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Satisfy;-inkscape-font-specification:Satisfy;fill:#a02c2c">9.3</tspan></text>
 </svg>
