@@ -8,7 +8,7 @@
     <owners>DevoKun</owners>
     <licenseUrl>http://www.postgresql.org/about/licence</licenseUrl>
     <projectUrl>http://www.postgresql.org/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/DevoKun/chocolatey-templates/master/postgresql/postgresql_server93.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/DevoKun/chocolatey-templates/master/postgresql93/postgresql_server93.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>
 This package installs PostgreSQL 9.3. The creation of a package dedicated to the release version matches the distribution methodology employed by EnterpriseDB on Linux, and thus protecting against unwanted or unexpected upgrades.
