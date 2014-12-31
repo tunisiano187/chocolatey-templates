@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>postgresql93</id>
-    <version>9.3.5.1</version>
+    <version>9.3.5.120151202</version>
     <title>PostgreSQL</title>
     <authors>pgsql developers</authors>
     <owners>DevoKun</owners>
