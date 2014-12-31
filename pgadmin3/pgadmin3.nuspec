@@ -3,7 +3,7 @@
   <metadata>
     <id>pgadmin3</id>
     <title>pgadmin3</title>
-    <version>1.18.1.20140925</version>
+    <version>1.20.0.20150103</version>
     <authors>The PostgreSQL Global Development Group, Current Maintainer: Dave Page dpage@postgresql.org</authors>
     <owners>Devon Hubner</owners>
     <summary>pgAdmin3</summary>
@@ -13,11 +13,11 @@ pgAdmin is the most popular and feature rich Open Source administration and deve
 pgAdmin is designed to answer the needs of all users, from writing simple SQL queries to developing complex databases. The graphical interface supports all PostgreSQL features and makes administration easy. The application also includes a syntax highlighting SQL editor, a server-side code editor, an SQL/batch/shell job scheduling agent, support for the Slony-I replication engine and much more. Server connection may be made using TCP/IP or Unix Domain Sockets (on *nix platforms), and may be SSL encrypted for security. No additional drivers are required to communicate with the database server.
 </description>
     <projectUrl>http://pgadmin3.cc/</projectUrl>
-    <tags>pgadmin3 admin</tags>
-    <copyright>1996-2014 The PostgreSQL Global Development Group</copyright>
+    <tags>pgadmin3 postgresql admin</tags>
+    <copyright>1996-2015 The PostgreSQL Global Development Group</copyright>
     <licenseUrl>http://www.pgadmin.org/licence.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <iconUrl>https://raw.githubusercontent.com/DevoKun/chocolatey-templates/master/pgadmin3/pgadmin3-220px.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/DevoKun/chocolatey-templates/master/pgadmin3/pgadmin3_logo.png</iconUrl>
     <!--<dependencies>
       <dependency id="" version="" />
     </dependencies>-->
