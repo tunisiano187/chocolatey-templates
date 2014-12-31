@@ -20,7 +20,7 @@
    inkscape:export-ydpi="72"><metadata
      id="metadata3089"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs3087" /><sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -36,7 +36,7 @@
      showgrid="false"
      inkscape:zoom="0.86217927"
      inkscape:cx="448.83944"
-     inkscape:cy="489.98856"
+     inkscape:cy="397.20043"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -155,33 +155,5 @@
        id="tspan8202-0"
        x="13.088384"
        y="561.45599"
-       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#336791;fill-opacity:1;font-family:Apple SD Gothic Neo;-inkscape-font-specification:Apple SD Gothic Neo">pgAdmin</tspan></text>
-<g
-     id="g3025"
-     transform="matrix(2.7214486,-0.63408566,0.23074551,0.9903426,-1079.6559,462.93916)"><text
-       sodipodi:linespacing="125%"
-       id="text3085-0"
-       y="348.68573"
-       x="673.51465"
-       style="font-size:93.42747498px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ffcc00;fill-opacity:1;stroke:#ffcc00;stroke-width:8.98638439;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Sans"
-       xml:space="preserve"
-       transform="scale(0.70206127,1.4243771)"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#ffcc00;fill-opacity:1;stroke:#ffcc00;stroke-width:8.98638439;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;font-family:Zapfino;-inkscape-font-specification:Zapfino"
-         y="348.68573"
-         x="673.51465"
-         id="tspan3087-2"
-         sodipodi:role="line">3</tspan></text>
-<text
-       sodipodi:linespacing="125%"
-       id="text3085"
-       y="348.96671"
-       x="672.84442"
-       style="font-size:93.42747498px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#a02c2c;fill-opacity:1;stroke:none;font-family:Sans"
-       xml:space="preserve"
-       transform="scale(0.70206127,1.4243771)"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#a02c2c;font-family:Zapfino;-inkscape-font-specification:Zapfino"
-         y="348.96671"
-         x="672.84442"
-         id="tspan3087"
-         sodipodi:role="line">3</tspan></text>
-</g></svg>
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#336791;fill-opacity:1;font-family:Apple SD Gothic Neo;-inkscape-font-specification:Apple SD Gothic Neo">pgAdmin3</tspan></text>
+</svg>
