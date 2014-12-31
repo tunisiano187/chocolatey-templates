@@ -6,8 +6,8 @@ https://www.grc.com/misc/truecrypt/truecrypt.htm
 * The anonymous developers of the original TrueCrypt decided to stop working on TrueCrypt and took down their truecrypt.org website.
 
 The TCNext Project and CipherShed
-==========
-https://twitter.com/TrueCryptNext
+=================================
+* https://twitter.com/TrueCryptNext
 
 ## On July 8th, 2014 the TCNext Project announced, on twitter, a long-term goal of rewriting the original TrueCrypt codebase:
 
@@ -31,5 +31,11 @@ https://twitter.com/TrueCryptNext
 > Development has begun.
 >
 > https://twitter.com/CipherShed/status/475644746572918785
+
+## CipherShed
+### Pre-Alpha code and builds
+* (Work is progressing on CipherShed)[https://github.com/pdinc-oss/CipherShedBuilds]
+* On 2014-12-14 a pre-alpha build was released.
+* On 2014-12-19 the pre-alpha was pulled...
 
 
