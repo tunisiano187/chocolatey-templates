@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>pgadmin3</id>
-    <title>pgadmin3</title>
+    <title>pgAdmin3</title>
     <version>1.20.0.20150103</version>
     <authors>The PostgreSQL Global Development Group, Current Maintainer: Dave Page dpage@postgresql.org</authors>
     <owners>Devon Hubner</owners>
@@ -18,13 +18,9 @@ pgAdmin is designed to answer the needs of all users, from writing simple SQL qu
     <licenseUrl>http://www.pgadmin.org/licence.php</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <iconUrl>https://raw.githubusercontent.com/DevoKun/chocolatey-templates/master/pgadmin3/pgadmin3_logo.png</iconUrl>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
     <releaseNotes></releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
-    <!--<file src="content\**" target="content" />-->
   </files>
 </package>
