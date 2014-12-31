@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>ossec</id>
+    <title>ossec</title>
+    <version>2.8.20150102</version>
+    <authors>© Trend Micro</authors>
+    <owners>Devon Hubner</owners>
+    <summary>ossec</summary>
+    <description>OSSEC is an Open Source Host-based Intrusion Detection System that performs log analysis, file integrity checking, policy monitoring, rootkit detection, real-time alerting and active response. </description>
+    <projectUrl>http://www.ossec.net/</projectUrl>
+    <tags>ossec hids</tags>
+    <copyright>© Trend Micro</copyright>
+    <licenseUrl>http://www.ossec.net/?page_id=4</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://raw.github.com/DevoKun/chocolatey-templates/master/ossec/ossec-logo.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
