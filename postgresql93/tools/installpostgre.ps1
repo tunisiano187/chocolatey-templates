@@ -11,17 +11,13 @@
 $postgresql_exe_url64 = 'http://get.enterprisedb.com/postgresql/postgresql-9.3.5-1-windows-x64.exe'
 $postgresql_exe_url32 = 'http://get.enterprisedb.com/postgresql/postgresql-9.3.5-1-windows.exe'
 
-$postgrePath        = "$($env:SystemDrive)\postgresql93"
-$postgreAccount     = 'postgres'
-$postgrePassword    = 'Postgres1234'
+$postgrePath        = "$(Get-BinRoot)\postgresql93"
+$postgreAccount     = 'postgresql'
+$postgrePassword    = 'Postgres-1234'
 $postgreServiceName = 'postgresql93'
 
 try {
-  #http://www.enterprisedb.com/products-services-training/pgdownload#windows
-  #http://www.enterprisedb.com/resources-community/pginst-guide
   
-  #create postgres user
-  #Could do this - http://blogs.technet.com/b/heyscriptingguy/archive/2010/11/23/use-powershell-to-create-local-user-accounts.aspx | http://www.yusufozturk.info/windows-server/how-to-create-windows-user-with-powershell-2.html | http://stackoverflow.com/questions/383390/create-local-user-with-powershell-windows-vista
   Write-Host "Deleting and recreating $postgreAccount windows account..."
   try {
     net user $postgreAccount /delete
@@ -31,9 +27,7 @@ try {
   $localUser = ([ADSI]"WinNT://$env:computername").Create("User", $postgreAccount)
   $localUser.SetPassword($postgrePassword)
   $localUser.SetInfo()
-  #net user $postgreAccount $postgrePassword /add
   
-  #remove that user from the users group
   try {
     $localUserPath = "WinNT://$env:computername/$postgreAccount"
     $computer      = [ADSI]("WinNT://$env:computername,computer")
@@ -54,10 +48,10 @@ try {
   Write-Host "The account $postgreAccount has been created with the password set to $postgrePassword. Please change the password for the $postgreAccount account and update the services to that password"
   Start-Sleep 4
   
-  #create sysdrive\PostgreSQL folder
+
   Write-Host "Creating $postgrePath folder for installation if it doesn`'t exist"
   if (![System.IO.Directory]::Exists($postgrePath)) {[System.IO.Directory]::CreateDirectory($postgrePath)}
-  #assign folder permissions to postgres user
+
   Write-Host "Setting folder permissions on $postgrePath to full control for user postgres"
   $acl = Get-Acl $postgrePath
   $acl.SetAccessRuleProtection($True, $True)
@@ -65,13 +59,10 @@ try {
   $acl.AddAccessRule($rule);
   Set-Acl $postgrePath $acl
   
-  #perform silent install
-#  $installArgs = "--mode unattended --prefix $postgrePath --datadir $($postgrePath)\data --superpassword $postgrePassword"
   $installArgs = "--mode unattended --prefix $postgrePath --datadir $($postgrePath)\data --servicename $postgreServiceName --superaccount $postgreAccount --superpassword $postgrePassword --serviceaccount $postgreAccount"
 
   Install-ChocolateyPackage 'postgresql' 'exe' "$installArgs" "$postgresql_exe_url" "$postgresql_exe_url64"
 
-  #Add path
   Install-ChocolateyPath "$($postgrePath)\bin"
   
   Write-ChocolateySuccess 'postgresql'
@@ -80,5 +71,5 @@ try {
   throw 
 }
 
-
+# Install-ChocolateyZipPackage 'procexp' 'http://download.sysinternals.com/files/ProcessExplorer.zip' "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 

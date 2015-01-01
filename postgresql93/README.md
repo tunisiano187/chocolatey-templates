@@ -1,14 +1,16 @@
-PostgreSQL
-==========
+PostgreSQL 9.3
+==============
 
-## Installs PostgreSQL for Windows from EnterpriseDB
+## Installs PostgreSQL 9.3 for Windows from EnterpriseDB
 * http://www.enterprisedb.com/products-services-training/pgdownload
 
 ## Installer Includes pgAdminIII
 
 ## Install Location, Service, and User
-* Installs to **C:\postgresql93**
-* Creates the user: **postgresql** with password: **Postgres1234**
+* Installs to **%ChocolateyBinRoot%\postgresql93**
+* By default %ChocolateyBinRoot% is C:\tools
+
+* Creates the user: **postgresql** with password: **Postgres-1234**
 * Creates, and starts, a Windows Service for PostgreSQL named: **postgresql93**
 
 ## Service Control
@@ -30,7 +32,12 @@ net stop PostgreSQL
 sc delete PostgreSQL
 ```
 
-## This version was originally forked from ferventcoder
+## Package name
+* The **postgresql93** package name was chosen to mirror the **postgresql93** package name on RHEL Linux:
+<img src="https://raw.githubusercontent.com/DevoKun/chocolatey-templates/master/postgresql93/postgresql93_package_on_rhel.png" />
+
+
+## This version was originally forked from ferventcoder's postgresql package
 * ***On Chocolatey.org:*** http://chocolatey.org/profiles/ferventcoder
 * ***On GitHub:*** https://github.com/ferventcoder
 

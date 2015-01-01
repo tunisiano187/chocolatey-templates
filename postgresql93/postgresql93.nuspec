@@ -3,7 +3,7 @@
   <metadata>
     <id>postgresql93</id>
     <version>9.3.5.120151202</version>
-    <title>PostgreSQL</title>
+    <title>PostgreSQL 9.3</title>
     <authors>pgsql developers</authors>
     <owners>DevoKun</owners>
     <licenseUrl>http://www.postgresql.org/about/licence</licenseUrl>
@@ -13,8 +13,10 @@
     <description>
 This package installs PostgreSQL 9.3. The creation of a package dedicated to the release version matches the distribution methodology employed by EnterpriseDB on Linux, and thus protecting against unwanted or unexpected upgrades.
 
-Installs to C:\postgresql93
-Creates the user: postgresql with password: Postgres1234
+Installs to %ChocolateyBinRoot%\postgresql93
+By default %ChocolateyBinRoot% is C:\tools
+
+Creates the user: postgresql with password: Postgres-1234
 Creates, and starts, a Windows Service for PostgreSQL named: postgresql93
 
 This release forked from the PostgreSQL package (https://chocolatey.org/packages/postgresql) by FerventCoder (http://chocolatey.org/profiles/ferventcoder)
