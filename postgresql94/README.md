@@ -7,9 +7,11 @@ PostgreSQL
 ## Installer Includes pgAdminIII
 
 ## Install Location, Service, and User
-* Installs to **C:\postgresql94**
-* Creates the user: **postgresql** with password: **Postgres1234**
-* Creates, and starts, a Windows Service for PostgreSQL named: **postgresql93**
+* Installs to **%ChocolateyBinRoot%\postgresql94**
+* By default %ChocolateyBinRoot% is C:\tools
+
+* Creates the user: **postgresql** with password: **Postgres-1234**
+* Creates, and starts, a Windows Service for PostgreSQL named: **postgresql94**
 
 ## Service Control
 * Run these commands from an elevated shell prompt
@@ -29,6 +31,11 @@ net stop PostgreSQL
 ```bash
 sc delete PostgreSQL
 ```
+
+## Package name
+* The **postgresql94** package name was chosen to mirror the **postgresql94** package name on RHEL Linux:
+
+
 
 ## This version was originally forked from ferventcoder
 * ***On Chocolatey.org:*** http://chocolatey.org/profiles/ferventcoder
